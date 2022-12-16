@@ -12,7 +12,7 @@ export default function Home() {
         <title>sundayish</title>
         <meta name="description" content="Tom Sonntags personal website" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <link rel="icon" href="/favicon.ico" />
+        <link rel="icon" href="/portrait_tom.png" />
       </Head>
       <main className={styles.main}>
         <div className={styles.center}>
