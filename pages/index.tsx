@@ -1,5 +1,4 @@
 import Head from 'next/head'
-import Image from 'next/image'
 //import { Inter } from '@next/font/google'
 import styles from '../styles/Home.module.css'
 
@@ -16,24 +15,7 @@ export default function Home() {
       </Head>
       <main className={styles.main}>
         <div className={styles.center}>
-          <Image
-            className={styles.logo}
-            src="/sundayish.svg"
-            alt="sundayish text"
-            width={180}
-            height={37}
-            priority
-          />
-          <div className={styles.thirteen}>
-            <Image
-              src="/portrait_tom.png"
-              alt="13"
-              width={200}
-              height={200}
-              priority
-            />
-          </div>
-
+          <h1>beta</h1>
         </div>
 
         <div className={styles.description}>
