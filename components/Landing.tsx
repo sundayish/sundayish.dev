@@ -2,7 +2,7 @@ export default function LandingPage(){
     return(
         <>
             <div className="h-screen relative flex items-center justify-center">
-                <div className="absolute left-72 top-1/4">
+                <div className="absolute xl:left-72 xl:top-1/4">
                     <h1 className="text-9xl font-bold">Hello.</h1>
                     <div className="inline-flex overflow-hidden">
                         <div className="my-4 mr-4 ml-2">
