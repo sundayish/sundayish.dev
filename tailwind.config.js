@@ -9,6 +9,12 @@ module.exports = {
       colors: {
         'greytext': '#727272',
       },
+      boxShadow: {
+        'even': 'box-shadow: 0px 4px 15px 0px #EDEDED inset;'
+      },
+      spacing: {
+        '128': '32rem'
+      }
     },
   },
   plugins: [],
