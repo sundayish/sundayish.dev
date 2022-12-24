@@ -12,7 +12,7 @@ export default function LandingPage(){
                         </div>
                         <div className="text-2xl font-bold">
                             <p>Tom Sonntag</p>
-                            <p className="text-greytext pt-5">Design led, <br/>creative mind.</p>
+                            <p className="text-greytext pt-2 text-xl font-semibold">Design led, <br/>creative mind.</p>
                         </div>
                     </div>
                 </div>
