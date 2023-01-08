@@ -86,7 +86,7 @@ export default function Profile() {
                         </Link>
                     </div>
                     <div className="flex-row w-44 h-44 mt-auto rounded-full bg-red overflow-hidden">
-                        <Image className='pt-2' src='/../public/portrait_tom_big.png' alt='Portrait' width='172'
+                        <Image className='pt-2' src='/portrait_tom_big.png' alt='Portrait' width='172'
                                height='172'/>
                     </div>
                 </div>
