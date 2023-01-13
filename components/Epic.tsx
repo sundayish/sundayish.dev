@@ -5,7 +5,7 @@ import Blogs from "./Blogs";
 export default function Epic(){
     return(
         <>
-            <div className="h-screen w-5/6 mx-auto">
+            <div className="w-5/6 mx-auto">
                 <Navbar />
                 <Profile />
                 <Blogs />
