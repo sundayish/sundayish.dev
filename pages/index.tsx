@@ -1,9 +1,6 @@
 import Head from 'next/head'
 import LandingPage from "../components/Landing";
-import Epic from "../components/Epic";
-//import { Inter } from '@next/font/google'
-
-//const inter = Inter({ subsets: ['latin'] })
+import GridLayout from "../components/GridLayout";
 
 export default function Home() {
     return (
@@ -14,9 +11,9 @@ export default function Home() {
                 <meta name="viewport" content="width=device-width, initial-scale=1"/>
                 <link rel="icon" href="/portrait_tom.png"/>
             </Head>
-            <div className="relative">
+            <div className="relative bg-stone-900">
                 <LandingPage />
-                <Epic />
+                <GridLayout />
             </div>
         </>
     )

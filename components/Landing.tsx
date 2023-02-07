@@ -1,7 +1,7 @@
 export default function LandingPage(){
     return(
         <>
-            <div className="h-screen relative flex items-center justify-center">
+            <div className="h-screen bg-gradient-to-b from-black to-stone-900 relative flex items-center justify-center text-white">
                 <div className="absolute xl:left-72 xl:top-1/4">
                     <h1 className="text-9xl font-bold">Hello.</h1>
                     <div className="inline-flex overflow-hidden">
