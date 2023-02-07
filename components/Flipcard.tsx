@@ -16,7 +16,7 @@ const Card = ({ imgSrc, imgAlt, text, flipped }: Props) => {
                 <div className="card-front w-full h-full bg-pink-500 rounded-md">
                     <img src={imgSrc} alt={imgAlt} className="w-full h-full object-cover" />
                 </div>
-                <div className="card-back bg-blue-500 text-center flex items-center text-white h-full w-full rounded-md">
+                <div className="card-back p-1 bg-blue-500 text-center flex items-center text-white h-full w-full rounded-md">
                     <p className="font-semibold">{text}</p>
                 </div>
             </div>

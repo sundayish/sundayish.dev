@@ -17,9 +17,11 @@ export default function GridLayout(){
                     <Card imgSrc={"/Tom_golf.png"} text={"That's me too. A sports enthusiast. A golfer. Driven by numbers."} imgAlt={"Self portrait"} />
                 </div>
                 <div className="h-40 sm:h-auto sm:square">
+                    <Card imgSrc={""} text={"This shall become the link to my personal blog section..."} imgAlt={"blogs"} flipped={true} />
+                </div>
+                <div className="h-40 sm:h-auto sm:square">
                     <Card imgSrc={""} text={"Spotify: this will become a webhook to display 'Now playing'."} imgAlt={"Web-hook"} flipped={true} />
                 </div>
-                <div className="h-40 bg-blue-500 sm:h-auto sm:square sm:rounded-md"></div>
                 <div className="h-40 sm:h-auto sm:square">
                     <Card imgSrc={"/tom_fashion.png"} text={"Oh and that's me again. I'm super into fashion and got a project idea in my mind."} imgAlt={"Self portrait"} />
                 </div>
