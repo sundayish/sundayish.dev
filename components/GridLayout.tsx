@@ -8,7 +8,7 @@ export default function GridLayout(){
                 <h1 className="flex items-center text-3xl sm:text-5xl font-extrabold sm:self-center sm:col-span-2 sm:grid sm:grid-cols-2 sm:gap-2.5 lg:col-span-3 lg:grid-cols-3"><span>Tom Sonntag</span></h1>
                 <p className="sm:row-start-2 sm:col-start-2 sm:self-center lg:col-start-1 lg:col-span-2 lg:pr-6 lg:text-lg">
                     Currently studying as a bachelor student majoring in Computer Science. Working for <span className="underline decoration-2 decoration-blue-500 font-semibold">SAP</span> as a dual student.
-                    Means I'm working 3 months full-time in a dedicated department and then I go back studying 3 months full-time at uni.
+                    Means I'm working 3 months full-time in a dedicated department and then I go back studying 3 months full-time in uni.
                 </p>
                 <div className="h-40 sm:h-auto sm:square ">
                     <Card imgSrc={"/portrait_tom_big.png"} text={"This is me. A curious learner. A quick adapter and tech nerd."} imgAlt={"Self portrait"} />
