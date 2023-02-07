@@ -21,7 +21,7 @@ export default function GridLayout(){
                 </div>
                 <div className="h-40 bg-blue-500 sm:h-auto sm:square sm:rounded-md"></div>
                 <div className="h-40 sm:h-auto sm:square">
-                    <Card imgSrc={"/tom_fashion.png"} text={"Oh and that's me again. I'm super fashion and got a project idea in my mind."} imgAlt={"Self portrait"} />
+                    <Card imgSrc={"/tom_fashion.png"} text={"Oh and that's me again. I'm super into fashion and got a project idea in my mind."} imgAlt={"Self portrait"} />
                 </div>
                 <div className="h-40 bg-blue-500 sm:h-auto sm:square sm:rounded-md"></div>
                 <div className="h-40 bg-blue-500 sm:h-auto sm:square sm:rounded-md"></div>
